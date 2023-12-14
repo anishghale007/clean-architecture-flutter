@@ -159,9 +159,9 @@ class _RegisterScreenState extends State<RegisterScreen> {
                     const SizedBox(
                       height: 20,
                     ),
-                    Row(
+                    const Row(
                       mainAxisAlignment: MainAxisAlignment.spaceAround,
-                      children: const [
+                      children: [
                         OtherRegisterMethodWidget(
                           iconName: "phone_icon.png",
                         ),
